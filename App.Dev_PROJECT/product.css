@@ -1,0 +1,60 @@
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+.container {
+    height: 110vh;
+    width: 100%;
+    color: darkslateblue;
+    background-color: lavender;
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: scroll;
+    height: 550px; 
+}
+
+img {
+    width: 30%; 
+    height: auto;
+    border: 2px solid darkslateblue;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+figure {
+    text-align: center;
+    width: 40%;
+    margin: 0; 
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: darkslateblue;
+}
+
+.BUY-button {
+    background-color: darkslateblue;
+    color: lavender;
+    padding: 6px 10px; /* Adjust padding to make it smaller */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Adjust margin-top to move it downward */
+    text-decoration: none; /* Remove underline */
+    font-size: 10px; /* Adjust font size to make it smaller */
+}

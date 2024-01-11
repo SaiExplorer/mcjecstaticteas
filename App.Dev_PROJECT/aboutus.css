@@ -1,0 +1,76 @@
+body {
+    background-image: url('images/Teas.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer {
+    color: #ffffff;
+}
+
+.Footer .footer_top, .Footer .Middle_Footer, .Footer .footer_bottom {
+}
+
+.Footer .Middle_Footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: none;
+    color: white;
+    flex-wrap: wrap;
+    font-size: larger;
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px
+    
+}
+
+.Footer .Middle_Footer h3 {
+    color: white;
+}
+
+.Footer .footer_bottom {
+    background-color: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+    color: none; 
+}
+
+.Footer .SocialMedia {
+}
+
+.Footer .fa-brands {
+    padding: 10px;
+    border: 2px solid #5b5f63;
+    border-radius: 100px;
+    margin: 10px;
+    font-size: 20px;
+    color: none;
+}
+
+.Footer .fa-brands:hover {
+    color: #191970;
+    border-color: #191970;
+}
+
+.Footer .fa-facebook-f {
+    padding: 10px 13px 10px 13px;
+}
+
+.Footer a {
+    text-decoration: none; 
+    color: white; 
+
+.Footer a:hover {
+    color: black; 
+}
+
+.user {
+    text-shadow: 2px 2px 4px darkblue;
+}

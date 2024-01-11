@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.JPG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <script src="payment.js"></script>
+    <title>Payment Method</title>
+</head>
+<body>
+    <div class="payment-container">
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="MCJ Ecstatic Teas Logo">
+            <h1>MCJ Ecstatic Teas</h1>
+        </div>
+
+        <h2>Payment Method</h2>
+        <form id="paymentForm">
+            <label for="payment-options">Select Payment Method:</label>
+            <div id="payment-options">
+                <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+                <label for="paypal">PayPal</label>
+
+                <input type="radio" id="gcash" name="paymentMethod" value="gcash">
+                <label for="gcash">GCash</label>
+            </div>
+
+            <div id="paypalFields" class="payment-fields hidden">
+                <label for="paypal-email">PayPal Email</label>
+                <input type="email" id="paypal-email" name="paypalEmail" placeholder="Enter PayPal Email" required>
+            </div>
+
+            <div id="gcashFields" class="payment-fields hidden">
+                <label for="gcash-number">GCash Number</label>
+                <input type="tel" id="gcash-number" name="gcashNumber" placeholder="Enter GCash Number" required>
+            </div>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Crisaly" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="Address" placeholder="Bula" required>
+
+            <button type="button" onclick="submitPayment()">Submit Payment</button>
+        </form>
+
+        <div id="confirmationMessage" class="hidden">Payment done! Thank you.</div>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>
